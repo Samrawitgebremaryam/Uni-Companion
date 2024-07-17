@@ -1,11 +1,11 @@
 Uni Companion
 
 Introduction
-
+[Home Screen](images/Home.jpg)
 Uni Companion is a comprehensive web and mobile application designed to support university students by providing a centralized platform for accessing essential information, facilitating effective communication with seniors, and offering academic guidance. The app addresses common challenges such as difficulty in obtaining up-to-date information and lack of communication with faculty, ensuring students can access these resources conveniently from any device.
 
 Key Features
-
+[Features](images/Features.jpg)
 Centralized Information Repository
 
 1.Up-to-date information: on courses, class schedules, campus events, and essential resources.
@@ -26,12 +26,14 @@ Interactive Quiz App
 Provides an engaging and effective way for students to prepare for exams through quizzes that reinforce learning and test their knowledge.
 
 Project Goals
+[Services](images/Services.jpg)
 
 1.Enhance Information Accessibility: By centralizing all essential information in one platform.
 2.Foster Peer Support: By enabling effective communication channels between new students and senior students.
 3.Improve Academic Preparedness: By offering tools like an interactive quiz app to help students review and test their knowledge.
 
 Solution Proposal
+[Info](images/AASTU.jpg)
 
 Uni Companion aims to enhance the educational experience by providing students with a centralized platform that offers comprehensive information, fosters effective communication, and supports their academic journey. Key features include:
 
@@ -43,3 +45,6 @@ Uni Companion aims to enhance the educational experience by providing students w
 Target Users
 
 The primary target users are university students across various disciplines and academic levels, including undergraduate and postgraduate students who face challenges related to information access, communication, and academic support.
+
+ScreenShots
+[Features](images/features.png)
