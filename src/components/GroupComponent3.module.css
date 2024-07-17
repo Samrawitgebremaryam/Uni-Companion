@@ -1,0 +1,163 @@
+.ellipse,
+.frameChild {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  width: 380px;
+  height: 525px;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.ellipse {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+}
+.shapeIcon {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 100%;
+  transform: scale(1.096);
+}
+.verified,
+.wrapperShape {
+  height: 131px;
+  display: flex;
+}
+.wrapperShape {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+.verified {
+  width: 260px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+  box-sizing: border-box;
+}
+.collageOfEngineering {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.engineeringTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.learnMore {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 84px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.icArrowForward24pxIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icArrowForward24pxWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.engineeringDescription,
+.engineeringLink,
+.icArrowForward24pxWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.engineeringLink {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue-100);
+}
+.engineeringDescription,
+.rectangleParent {
+  flex-direction: column;
+}
+.engineeringDescription {
+  align-self: stretch;
+  gap: var(--gap-43xl);
+}
+.rectangleParent {
+  width: 380px;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  padding: var(--padding-30xl) var(--padding-29xl) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+  font-family: var(--font-m-plus-1);
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .verified {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .collageOfEngineering {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .engineeringDescription {
+    gap: var(--gap-12xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-9xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

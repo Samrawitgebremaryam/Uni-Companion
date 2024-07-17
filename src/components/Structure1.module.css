@@ -1,0 +1,82 @@
+.yearsChild {
+  align-self: stretch;
+  width: 1510px;
+  position: relative;
+  background-color: var(--color-aliceblue-100);
+  display: none;
+  max-width: 100%;
+}
+.structureChild {
+  align-self: stretch;
+  height: 53px;
+  z-index: 1;
+}
+.structure1 {
+  width: 243px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.yearList,
+.yearList1 {
+  height: 53px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumslateblue);
+}
+.yearList,
+.yearList1,
+.yearList2 {
+  width: 237px;
+  z-index: 2;
+}
+.structure,
+.years {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.years {
+  flex: 1;
+  background-color: var(--color-aliceblue-100);
+  justify-content: space-between;
+  padding: 0 var(--padding-144xl) 0 var(--padding-128xl);
+  gap: var(--gap-xl);
+}
+.structure {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-23xl) 0;
+}
+@media screen and (max-width: 1500px) {
+  .years {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 825px) {
+  .years {
+    padding-left: var(--padding-54xl);
+    padding-right: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .structureChild,
+  .years {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .structureChild {
+    gap: var(--gap-2xl);
+  }
+  .years {
+    padding-right: var(--padding-xl);
+  }
+}

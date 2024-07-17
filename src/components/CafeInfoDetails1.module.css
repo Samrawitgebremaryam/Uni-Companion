@@ -1,0 +1,335 @@
+.learnMore {
+  text-decoration: none;
+  width: 79.9px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 239px;
+  left: 66.6px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+}
+.wrapperRectangle2Child {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  transform: scale(1.263);
+}
+.wrapperRectangle2 {
+  position: absolute;
+  height: 97.77%;
+  width: 100%;
+  top: 2.23%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse {
+  position: absolute;
+  height: 24.58%;
+  width: 34.74%;
+  top: 11.17%;
+  right: 32.63%;
+  bottom: 64.25%;
+  left: 32.63%;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  display: none;
+}
+.emptyContainerIcon {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.134);
+}
+.wrapperEmptyContainer {
+  position: absolute;
+  height: 36.69%;
+  width: 58.95%;
+  top: 0;
+  right: 20.53%;
+  bottom: 63.31%;
+  left: 20.53%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icArrowForward24pxIcon,
+.learnMoreIcon,
+.ourCafInBlock31BehindTh {
+  position: absolute;
+  height: 84.22%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 15.78%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icArrowForward24pxIcon,
+.learnMoreIcon {
+  height: 43.33%;
+  width: 59.54%;
+  top: 32.5%;
+  right: 40.46%;
+  bottom: 24.17%;
+}
+.icArrowForward24pxIcon {
+  height: 100%;
+  width: 19.08%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 80.92%;
+}
+.learnMoreGroup {
+  position: absolute;
+  height: 13.48%;
+  width: 46.82%;
+  top: 86.52%;
+  right: 53.14%;
+  bottom: 0;
+  left: 0.04%;
+}
+.ourCafInBlock31BehindThParent {
+  position: absolute;
+  height: 33.17%;
+  width: 70.71%;
+  top: 57.34%;
+  right: 16.37%;
+  bottom: 9.5%;
+  left: 12.92%;
+  z-index: 1;
+}
+.wrapperRectangle2Parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameWrapper {
+  height: 537px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.learnMore1 {
+  width: 79.9px;
+  position: relative;
+  font-weight: 500;
+  display: none;
+  height: 39px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.electromechanical {
+  width: 232px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13.5px);
+  left: 48px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  display: inline-block;
+  z-index: 2;
+}
+.learnMoreParent {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.wrapperRectangle2Item {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  transform: scale(1.263);
+}
+.wrapperRectangle21 {
+  position: absolute;
+  height: 97.77%;
+  width: 100%;
+  top: 2.23%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse1 {
+  position: absolute;
+  height: 24.58%;
+  width: 34.74%;
+  top: 11.17%;
+  right: 32.63%;
+  bottom: 64.25%;
+  left: 32.63%;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  display: none;
+}
+.emptyContainerIcon1 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.134);
+}
+.wrapperEmptyContainer1 {
+  position: absolute;
+  height: 36.69%;
+  width: 58.95%;
+  top: 0;
+  right: 20.53%;
+  bottom: 63.31%;
+  left: 20.53%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icArrowForward24pxIcon1,
+.learnMoreIcon1,
+.ourCafInBlock31BehindTh1 {
+  position: absolute;
+  height: 84.22%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 15.78%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icArrowForward24pxIcon1,
+.learnMoreIcon1 {
+  height: 43.33%;
+  width: 59.54%;
+  top: 32.5%;
+  right: 40.46%;
+  bottom: 24.17%;
+}
+.icArrowForward24pxIcon1 {
+  height: 100%;
+  width: 19.08%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 80.92%;
+}
+.learnMoreContainer {
+  position: absolute;
+  height: 13.48%;
+  width: 46.82%;
+  top: 86.52%;
+  right: 53.14%;
+  bottom: 0;
+  left: 0.04%;
+}
+.ourCafInBlock31BehindThGroup {
+  position: absolute;
+  height: 33.17%;
+  width: 70.71%;
+  top: 57.34%;
+  right: 16.37%;
+  bottom: 9.5%;
+  left: 12.92%;
+  z-index: 1;
+}
+.frameContainer,
+.wrapperRectangle2Group {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component6variant2Inner {
+  height: 537px;
+  width: 380px;
+  position: relative;
+  max-width: 100%;
+}
+.cafeInfoDetails,
+.component6variant2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.component6variant2 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.cafeInfoDetails {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .component6variant2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .electromechanical {
+    font-size: var(--font-size-lg);
+  }
+}

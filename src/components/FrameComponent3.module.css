@@ -1,0 +1,98 @@
+.iSemester {
+  margin: 0;
+  width: 285px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.componentList,
+.componentList1,
+.componentTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.componentList,
+.componentList1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-38xl);
+  min-width: 301px;
+}
+.componentTitle {
+  width: 1060px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-115xl);
+}
+.componentTitleWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-5xl);
+}
+.componentTitleWrapper,
+.semesterContent,
+.semesterContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.semesterContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-67xl);
+}
+.semesterContentWrapper {
+  width: 1240px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-42xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1225px) {
+  .semesterContent {
+    gap: var(--gap-24xl);
+  }
+  .semesterContentWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .componentTitle {
+    gap: var(--gap-48xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .iSemester {
+    font-size: var(--font-size-11xl);
+  }
+  .componentTitle {
+    gap: var(--gap-14xl);
+  }
+  .semesterContent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .iSemester {
+    font-size: var(--font-size-4xl);
+  }
+  .componentList,
+  .componentList1 {
+    gap: var(--gap-9xl);
+  }
+  .componentTitle {
+    gap: var(--gap-mid);
+  }
+}

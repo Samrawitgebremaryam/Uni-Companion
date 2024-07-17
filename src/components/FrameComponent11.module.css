@@ -1,0 +1,14 @@
+.sectionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-20xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,112 @@
+.ellipse {
+  height: 102px;
+  width: 115.3px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  display: none;
+}
+.emptyContainerIcon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.154);
+}
+.wrapperEmptyContainer {
+  position: absolute;
+  top: 0;
+  left: 68.1px;
+  width: 195.7px;
+  height: 152.2px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperRectangle2Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  transform: scale(1.301);
+}
+.wrapperRectangle2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourCafInBlock31BehindTh {
+  position: absolute;
+  top: 228.6px;
+  left: 42.9px;
+  width: 234.8px;
+  height: 115.9px;
+  z-index: 1;
+}
+.icArrowForward24pxIcon,
+.learnMoreIcon {
+  position: absolute;
+  top: 353.8px;
+  left: 43px;
+  width: 65.4px;
+  height: 8px;
+  z-index: 1;
+}
+.icArrowForward24pxIcon {
+  top: 347.7px;
+  left: 131.9px;
+  width: 21px;
+  height: 18.5px;
+  overflow: hidden;
+}
+.freshman {
+  position: absolute;
+  top: 180.7px;
+  left: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 140px;
+  height: 36px;
+  z-index: 2;
+}
+.featuredInfo {
+  position: absolute;
+  top: 9.3px;
+  left: 0;
+  width: 100%;
+  height: 405.7px;
+}
+.featuredDetails {
+  height: 415px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.ellipseParent {
+  width: 332px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .freshman {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,102 @@
+.commonCourses {
+  margin: 0;
+  width: 351px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.commonCoursesWrapper,
+.featuredContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.featuredContainer {
+  justify-content: space-between;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+}
+.departments {
+  margin: 0;
+  width: 247px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.departmentsWrapper {
+  width: 797px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.contentContainer,
+.departmentsWrapper,
+.pageContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pageContent {
+  width: 820px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-65xl);
+}
+.contentContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-45xl) var(--padding-28xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1150px) {
+  .featuredContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pageContent {
+    gap: var(--gap-23xl);
+  }
+  .contentContainer {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .commonCourses,
+  .departments {
+    font-size: var(--font-size-10xl);
+  }
+  .contentContainer {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .commonCourses,
+  .departments {
+    font-size: var(--font-size-3xl);
+  }
+  .pageContent {
+    gap: var(--gap-2xl);
+  }
+}

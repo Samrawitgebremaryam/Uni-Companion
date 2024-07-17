@@ -1,0 +1,240 @@
+.learnMore,
+.learnMore1 {
+  width: 79.9px;
+  height: 0;
+  position: relative;
+  font-weight: 500;
+  display: none;
+  white-space: nowrap;
+  z-index: 0;
+}
+.learnMore1 {
+  z-index: 1;
+}
+.wrapperRectangle2Child {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 4px;
+  top: 0;
+  transform: scale(1.19);
+}
+.wrapperRectangle2 {
+  width: 1512px;
+  height: 526px;
+  position: absolute;
+  margin: 0 !important;
+  top: 168px;
+  right: -4px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondYearChild {
+  align-self: stretch;
+  height: 53px;
+  z-index: 2;
+}
+.secondYear {
+  width: 243px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.yearNames,
+.yearNames1,
+.yearNames2 {
+  height: 53px;
+  width: 237px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumslateblue);
+  z-index: 2;
+}
+.yearTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.iSemester {
+  margin: 0;
+  width: 285px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.semesterDetails {
+  height: 1018px;
+  width: 1060px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: relative;
+  gap: 57px 130px;
+}
+.semesterContent,
+.semesterDetails,
+.semesterTitle {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.semesterContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.semesterTitle {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-67xl);
+}
+.firstSemester {
+  width: 1160px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.firstSemester,
+.software2Inner,
+.yearTitleParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.yearTitleParent {
+  width: 1200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-44xl);
+}
+.software2Inner {
+  width: 1494px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 485.2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+.software2Child {
+  width: 100%;
+  height: 53px;
+  position: absolute;
+  margin: 0 !important;
+  top: 701px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+}
+.software2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-56xl-8);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1225px) {
+  .semesterTitle {
+    gap: var(--gap-24xl);
+  }
+  .yearTitleParent {
+    gap: var(--gap-12xl);
+  }
+  .software2Inner {
+    padding-bottom: 315px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .yearTitle {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .software2Inner {
+    padding-bottom: 205px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .secondYearChild {
+    text-align: center;
+    min-width: 237;
+  }
+  .secondYear,
+  .secondYearChild {
+    align-self: stretch;
+    width: auto;
+  }
+  .yearNames,
+  .yearNames1,
+  .yearNames2 {
+    align-self: stretch;
+    width: auto;
+    min-width: 100%;
+  }
+  .yearTitle {
+    flex-direction: column;
+  }
+  .iSemester {
+    font-size: var(--font-size-11xl);
+  }
+  .semesterTitle {
+    gap: var(--gap-2xl);
+  }
+  .yearTitleParent {
+    gap: var(--gap-base);
+  }
+  .software2 {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .secondYearChild {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .iSemester {
+    font-size: var(--font-size-4xl);
+  }
+  .semesterDetails {
+    height: auto;
+    min-height: 1018;
+  }
+  .software2Inner {
+    padding-bottom: 133px;
+    box-sizing: border-box;
+  }
+  .software2 {
+    gap: var(--gap-lgi);
+  }
+}

@@ -1,0 +1,151 @@
+.placeholderIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.134);
+}
+.wrapperPlaceholder {
+  height: 197px;
+  width: 224px;
+  position: absolute;
+  margin: 0 !important;
+  top: -12px;
+  left: calc(50% - 112px);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registrationContentChild {
+  width: 380px;
+  height: 525px;
+  position: relative;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.registration {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 125px;
+  z-index: 1;
+}
+.registrationOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.registrationDetails {
+  width: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.learnMore {
+  text-decoration: none;
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 77px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.icArrowForward24pxIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icArrowForward24pxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.learnRegistration,
+.registrationLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.learnRegistration {
+  gap: var(--gap-7xl);
+}
+.registrationLinks {
+  padding: 0 var(--padding-6xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue-100);
+}
+.registrationContent,
+.registrationInfo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.registrationContent {
+  flex: 1;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-243xl) var(--padding-22xl) var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+}
+.registrationInfo {
+  width: 380px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+  font-family: var(--font-m-plus-1);
+}
+@media screen and (max-width: 800px) {
+  .registrationContent {
+    padding-top: var(--padding-151xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registration {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .registrationDetails {
+    gap: var(--gap-mid);
+  }
+  .registrationContent {
+    gap: var(--gap-5xl);
+  }
+}

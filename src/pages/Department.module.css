@@ -1,0 +1,227 @@
+.vectorIcon {
+  width: 5.2px;
+  height: 4.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 344.9px;
+  right: 162.4px;
+}
+.learnMore,
+.learnMore1 {
+  width: 79.9px;
+  height: 0;
+  position: relative;
+  font-weight: 500;
+  display: none;
+  white-space: nowrap;
+  z-index: 1;
+}
+.learnMore1 {
+  z-index: 2;
+}
+.image5Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 216px;
+  object-fit: cover;
+  mix-blend-mode: linear-burn;
+}
+.uniCompanion {
+  text-decoration: none;
+  position: absolute;
+  top: 59px;
+  left: 132.5px;
+  line-height: 21px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 175px;
+  height: 21px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.image5Parent {
+  height: 168px;
+  width: 307.5px;
+  position: relative;
+}
+.aboutUni {
+  display: inline-block;
+  min-width: 98px;
+  white-space: nowrap;
+}
+.aboutUni,
+.departments {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.gradingSystem {
+  white-space: nowrap;
+}
+.administration,
+.gradingSystem {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.navigationMenu {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frameParent,
+.navigationContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigationContainer {
+  margin: 0;
+  width: 745px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) 0 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1283.5px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.addisAbabaScience,
+.department {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.department {
+  font-size: inherit;
+  font-weight: 800;
+}
+.addisAbabaScience {
+  align-self: stretch;
+  font-size: var(--font-size-13xl);
+  line-height: 45px;
+  font-weight: 400;
+  color: var(--color-black);
+  text-align: justify;
+  z-index: 1;
+}
+.headerContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.cafeInfo,
+.headerContent,
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pageHeader {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-52xl) var(--padding-49xl) 78px;
+  box-sizing: border-box;
+}
+.cafeInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-inter);
+}
+.container,
+.department1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-57xl) 0 var(--padding-52xl);
+  max-width: 100%;
+}
+.department1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-5xs) 38.2px;
+  gap: 163px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .pageHeader {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .department {
+    font-size: var(--font-size-13xl);
+  }
+  .addisAbabaScience {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+  .pageHeader {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .container {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .department1 {
+    gap: 81px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .department {
+    font-size: var(--font-size-5xl);
+  }
+  .addisAbabaScience {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .department1 {
+    gap: var(--gap-22xl);
+  }
+}

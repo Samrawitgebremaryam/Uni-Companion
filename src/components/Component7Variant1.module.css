@@ -1,0 +1,161 @@
+.component7variant2Child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 4px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.discreteMath,
+.loremIpsumDolor {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.discreteMath {
+  width: 199px;
+  font-weight: 600;
+}
+.loremIpsumDolor {
+  flex: 1;
+  max-width: 100%;
+}
+.componentLorem,
+.componentMath {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.componentLorem {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+.componentMath {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 0.6px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+}
+.grommetIconsresources {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.resources {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  z-index: 1;
+}
+.rectangleParent,
+.resourcesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resourcesWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.rectangleParent {
+  width: 199px;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 var(--padding-4xs) var(--padding-6xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-smi);
+  z-index: 1;
+}
+.letsIconscommentFill {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.componentComment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.component7variant2,
+.componentResources,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.component7variant2,
+.componentResources {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.component7variant2 {
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-4xl) var(--padding-20xl)
+    var(--padding-9xl);
+  position: relative;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discreteMath {
+    font-size: var(--font-size-lgi);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-base);
+  }
+  .resources {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .component7variant2 {
+    gap: var(--gap-mini);
+  }
+}

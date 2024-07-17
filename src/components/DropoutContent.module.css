@@ -1,0 +1,151 @@
+.icon,
+.wrapper3 {
+  position: absolute;
+  z-index: 1;
+}
+.icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.134);
+}
+.wrapper3 {
+  height: 197px;
+  width: 224px;
+  margin: 0 !important;
+  top: -12px;
+  left: calc(50% - 112px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropoutInfoChild {
+  width: 380px;
+  height: 525px;
+  position: relative;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.dropOut {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.dropOutWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  z-index: 1;
+}
+.learnMore {
+  text-decoration: none;
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 77px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.icArrowForward24pxIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dropoutLink,
+.icArrowForward24pxWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icArrowForward24pxWrapper {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.dropoutLink {
+  flex-direction: row;
+  gap: var(--gap-7xl);
+}
+.dropoutLearnMore {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue-100);
+}
+.dropoutContent,
+.dropoutDescription,
+.dropoutInfo,
+.dropoutLearnMore {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropoutDescription {
+  width: 284px;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.dropoutContent,
+.dropoutInfo {
+  max-width: 100%;
+}
+.dropoutInfo {
+  flex: 1;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-243xl) var(--padding-24xl) var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+}
+.dropoutContent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+  font-family: var(--font-m-plus-1);
+}
+@media screen and (max-width: 800px) {
+  .dropoutInfo {
+    padding-top: var(--padding-151xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dropOut {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .dropoutInfo {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

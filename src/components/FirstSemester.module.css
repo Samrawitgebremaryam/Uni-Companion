@@ -1,0 +1,161 @@
+.firstSemesterNameChild {
+  height: 53px;
+  width: 237px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.iSemister {
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  z-index: 5;
+}
+.firstSemesterName {
+  width: 237px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-39xl);
+  white-space: nowrap;
+  z-index: 4;
+}
+.firstSemesterShape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lightsteelblue);
+  z-index: 2;
+}
+.component7variant2Parent,
+.courseList,
+.firstSemesterContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component7variant2Parent {
+  height: 1018px;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 57px 130px;
+}
+.courseList,
+.firstSemesterContainer {
+  box-sizing: border-box;
+}
+.courseList {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-54xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-royalblue-100);
+}
+.firstSemesterContainer {
+  width: 1512px;
+  flex-direction: column;
+  padding: var(--padding-30xl) var(--padding-134xl) var(--padding-137xl);
+  position: relative;
+  gap: var(--gap-36xl);
+  flex-shrink: 0;
+}
+.learnMore {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.firstSemester,
+.learnMoreButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.learnMoreButton {
+  width: 79.9px;
+  flex-direction: column;
+  padding: var(--padding-1034xl) 0 0;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.firstSemester {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+  gap: var(--gap-211xl-6);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1425px) {
+  .courseList {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .firstSemesterContainer {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+  .firstSemester {
+    flex-wrap: wrap;
+    gap: var(--gap-96xl);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .learnMoreButton {
+    padding-top: var(--padding-665xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .firstSemesterContainer {
+    gap: var(--gap-8xl);
+    padding: var(--padding-2xl) var(--padding-57xl) var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .learnMoreButton {
+    padding-top: var(--padding-426xl);
+    box-sizing: border-box;
+  }
+  .firstSemester {
+    gap: var(--gap-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .component7variant2Parent {
+    height: auto;
+    min-height: 1018;
+  }
+  .firstSemesterContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .firstSemester {
+    gap: var(--gap-10xl);
+  }
+}

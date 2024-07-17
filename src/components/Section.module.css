@@ -1,0 +1,98 @@
+.calculateYour,
+.grade {
+  margin: 0;
+}
+.calculateYourGradeContainer1 {
+  width: 100%;
+}
+.calculateYourGradeContainer {
+  width: 151px;
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+}
+.calculateYourGradeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.doYouWanna {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  font-family: var(--font-m-plus-1);
+  margin-top: -11px;
+}
+.calculatorOptions {
+  width: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.a {
+  height: 40px;
+  flex: 1;
+}
+.section,
+.viewCalendarOption {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.viewCalendarOption {
+  width: 371.1px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-60xl);
+}
+.section {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-175xl) var(--padding-222xl) var(--padding-138xl);
+  gap: var(--gap-xl);
+  background-image: url(/public/section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .section {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .section {
+    padding-top: var(--padding-107xl);
+    padding-bottom: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .calculateYourGradeContainer {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .section,
+  .viewCalendarOption {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

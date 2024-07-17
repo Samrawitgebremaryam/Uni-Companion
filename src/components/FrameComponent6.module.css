@@ -1,0 +1,169 @@
+.discreteMath {
+  margin: 0;
+  width: 285px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.chat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.discreteMathResourceTypes,
+.parent,
+.video {
+  position: absolute;
+  top: 40px;
+  left: 53px;
+  z-index: 1;
+}
+.parent,
+.video {
+  top: 146px;
+}
+.video {
+  margin: 0;
+  top: 191px;
+  left: 129px;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 376px;
+  height: 20px;
+  z-index: 2;
+}
+.chatParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-200);
+  width: 100%;
+  height: 100%;
+}
+.discreteMathLearnMoreIcon {
+  position: absolute;
+  top: 195.6px;
+  left: 1097px;
+  width: 22px;
+  height: 15px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameGroup {
+  height: 492px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.discreteMathParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.discreteMathParent {
+  width: 1251px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-12xl);
+}
+.learnMore {
+  width: 79.9px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.learnMoreWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1670.5px;
+  flex-direction: column;
+  gap: var(--gap-419xl);
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-133xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1325px) {
+  .frameParent {
+    gap: var(--gap-200xl);
+  }
+  .frameWrapper {
+    padding-left: var(--padding-57xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .discreteMath {
+    font-size: var(--font-size-11xl);
+  }
+  .video {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .discreteMathParent {
+    gap: var(--gap-mini);
+  }
+  .frameParent {
+    gap: var(--gap-90xl);
+  }
+  .frameWrapper {
+    padding-left: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discreteMath {
+    font-size: var(--font-size-4xl);
+  }
+  .video {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .frameParent {
+    gap: var(--gap-36xl);
+  }
+}

@@ -1,0 +1,156 @@
+.socialIcon,
+.socialLinksChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 560px;
+}
+.socialIcon {
+  top: 443.9px;
+  left: 1341.9px;
+  width: 17.1px;
+  height: 9.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.socialIconBackgrounds {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-500);
+}
+.linkdin,
+.vectorIcon {
+  position: absolute;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 75.79%;
+  width: 76.59%;
+  top: 13.68%;
+  right: 10.03%;
+  bottom: 10.53%;
+  left: 13.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkdin {
+  top: 152.1px;
+  left: 162.7px;
+  width: 29.9px;
+  height: 28.5px;
+}
+.facebookChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-500);
+}
+.facebook,
+.vectorIcon1 {
+  position: absolute;
+  z-index: 1;
+}
+.vectorIcon1 {
+  height: 79.3%;
+  width: 40%;
+  top: 10.18%;
+  right: 30%;
+  bottom: 10.53%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebook {
+  top: 152.1px;
+  left: 63px;
+  width: 30px;
+  height: 28.5px;
+}
+.instagramChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-500);
+}
+.instagram,
+.vectorIcon2 {
+  position: absolute;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 79.3%;
+  width: 76.59%;
+  top: 10.18%;
+  right: 10.03%;
+  bottom: 10.53%;
+  left: 13.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagram {
+  top: 152.1px;
+  left: 112.8px;
+  width: 29.9px;
+  height: 28.5px;
+}
+.twitterChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-500);
+}
+.twitter,
+.vectorIcon3 {
+  position: absolute;
+  z-index: 1;
+}
+.vectorIcon3 {
+  height: 72.28%;
+  width: 86.62%;
+  top: 13.68%;
+  right: 6.69%;
+  bottom: 14.04%;
+  left: 6.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.twitter {
+  top: 152.1px;
+  left: 212.5px;
+  width: 29.9px;
+  height: 28.5px;
+}
+.socialLinks {
+  height: 330px;
+  width: 1192px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -286.6px;
+}
